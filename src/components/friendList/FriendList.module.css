@@ -4,7 +4,9 @@
     margin-left: 345px;
     margin-right: 345px;
 }
-
+.item:hover {
+    background-color: aqua;
+}
 .item {
     padding: 10px;
     display: flex;

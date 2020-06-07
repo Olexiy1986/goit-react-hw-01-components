@@ -30,9 +30,6 @@ const Profile = function ({ name, tag, location, avatar, stats }) {
     );
 };
 
-Profile.defaultProps = {
-    title: '',
-};
 Profile.propTypes = {
     name: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../friendList/FriendList.module.css';
 
+
 const FriendListItem = function ({ friend }) {
     const { avatar, name, isOnline } = friend;
     return (
