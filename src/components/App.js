@@ -10,18 +10,18 @@ import transactions from './transactionHistory/transactions.json';
 import styles from './App.module.css';
 
 export default function App() {
-    return (
-        <div className={styles.container}>
-            <Profile
-                name={user.name}
-                tag={user.tag}
-                location={user.location}
-                avatar={user.avatar}
-                stats={user.stats}
-            />
-            <FriendList friends={friends} />
-            <Statistics title="Upload stats" stats={statisticalData} />
-            <TransactionHistory items={transactions} />
-        </div>
-    );
+  return (
+    <div className={styles.container}>
+      <Profile
+        name={user.name}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
+      <FriendList friends={friends} />
+      <Statistics title="Upload stats" stats={statisticalData} />
+      <TransactionHistory items={transactions} />
+    </div>
+  );
 }
